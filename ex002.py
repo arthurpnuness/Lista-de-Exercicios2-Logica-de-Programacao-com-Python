@@ -7,7 +7,7 @@ while True:
 
     # Verifica se o número é maior que zero
     if num > 0:
-        break
+        break # Se o número for positivo, sai do loop
     else:
         print('Digite um numero INTEIRO!!!!')
         
