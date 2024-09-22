@@ -4,13 +4,12 @@ Faça um programa que peça ao usuário um número inteiro n e exiba os n primei
 
 # "Fn=Fn−1+Fn−2,n≥3"
 
-num = 0 
+def serieFibonacci():
 
-def fibonacci(num):
-
-    while num < 0:
-
+    while True:
+        
         num = int(input('Digite um numero inteiro positivo: '))
+
         if num > 0:
             break
         else:
